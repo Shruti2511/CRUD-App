@@ -1,0 +1,31 @@
+.crud-row * {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.crud-container{
+    position: relative;
+    top: -40px;
+}
+
+.column-labels {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+  
+.crud-buttons button {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.total-box {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 50px;
+}

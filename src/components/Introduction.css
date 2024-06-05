@@ -1,0 +1,53 @@
+/* src/AnimatedText.css */
+.container {
+  text-align: center;
+  margin-top: 50px;
+  height: 250px;
+  color: white;
+}
+
+.text {
+  position: relative;
+  display: inline-block;
+  transition: transform 2s;
+  font-size: 40px;
+}
+
+.text.animate {
+  transform: translateY(-150px);
+}
+
+.more-text {
+  margin-top: 0px;
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+  max-width: 1000px;
+}
+
+input {
+  margin-top: 30px;
+  padding: 10px 50px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 40px;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:hover {
+  box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.5); /* Add a white shadow on hover */
+}
+
+.img {
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  height: 300px;
+}
